@@ -1,0 +1,43 @@
+.outerdiv {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.rightdiv {
+  width: 75vw;
+  padding: 0 22vw;
+  align-items: center;
+  justify-content: center;
+}
+.rightdiv > img {
+  margin-top: 25vh;
+  width: 35vw;
+  height: 35vh;
+}
+
+.rightdiv > h1 {
+  margin: 0;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+}
+.rightdiv > p {
+  margin: 0;
+  font-weight: 500;
+}
+.rightdiv2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 18vh;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .outerdiv {
+    display: none;
+    background-color: black;
+  }
+}

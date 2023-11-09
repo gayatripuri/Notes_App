@@ -1,0 +1,21 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ChatPanel_msgcontent__Y7ARc > div {
+  display: flex;
+  align-items: flex-start;
+}
+.ChatPanel_timestamp__dQh3i > span {
+  margin-bottom: 10px;
+}
+
+.ChatPanel_groupCircle__bfwre > span{
+  text-transform: uppercase;
+}
+
+.groupNameLeft {
+  text-transform: capitalize;
+}

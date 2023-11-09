@@ -1,0 +1,71 @@
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1rem 40px;
+  text-align: left;
+}
+
+.createNotesBtn {
+  height: 11vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createNotesBtn > button {
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+  width: 80%;
+  height: 6vh;
+  font-size: 1rem;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  /* semi-transparent background */
+  backdrop-filter: blur(1px);
+  /* Adds a blur effect to the background */
+  z-index: 997;
+  /* Behind the popup but in front of the main content */
+}
+
+/* Style for circular icon */
+.groupIcon {
+  width: 7vh;
+  height: 7vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 3vh;
+}
+
+/* Style for text inside circular icon */
+.groupInitials {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.groupEntry {
+  margin-bottom: 4vh;
+  margin-left: 2.3vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebardiv {
+    width: 100vw;
+  }
+}

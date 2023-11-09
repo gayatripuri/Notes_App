@@ -1,0 +1,21 @@
+
+
+.container {
+    display: flex;
+  }
+  
+  .leftPanel {
+   
+    
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .rightPanel {
+    
+    background: #F7ECDC;
+    width: 100vw;
+    height: 100vh;
+  }
+  
